@@ -1,0 +1,149 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./utils/_variables.scss";
+@import "./font/font.scss";
+
+body {
+    height: 960px;
+    background-color: $bgHeader;
+}
+
+.header {
+    &__enTete {
+        padding-top: 40px;
+        font-size: 0.8rem;
+    }
+
+    color: $secondThemeColor;
+    font-family: $secondThemeFont;
+
+    &--logo {
+        float: left;
+    }
+
+    &__title {
+        font-family: $secondThemeFont;
+        color: $mainThemeColor;
+        font-weight: 1000;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-style: italic;
+    }
+
+    &--lien {
+        margin-top: 30px;
+        display: inline-block;
+        color: $offText;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: $secondThemeFont;
+        font-weight: 600;
+
+        &--icon {
+            margin-left: 15px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: $mainThemeColor;
+        }
+    }
+
+    &__research {
+        margin-top: 20px;
+        height: 45px;
+        width: 300px;
+        font-family: $mainThemeFont;
+        font-weight: 100;
+        color: $offText;
+
+        &--icon {
+            height: 35px;
+            transform: translate(-40px);
+        }
+    }
+   
+}
+.section1 {
+    background: $bgSection1 no-repeat center;
+    background-size: cover;
+    height: 530px;
+}
+
+
+.navitem {
+    padding-top: 25px;
+    align-items: center;
+    height: 112px;
+    width: 160px;
+    border-bottom: $mainThemeColor 6px solid;
+    transform: scale(1);
+    transition: all 100ms ease-in-out;
+
+    &--icon {
+        height: 30px;
+        width: 40px;
+    }
+
+    &:hover {
+        transform: scale(1.1) translateY(-10%) ;
+        border-bottom: $mainThemeColor 10px solid;
+    }
+}
+
+.section2 {
+    background-color: $bgSection2;
+    height: 868px;
+    width: 100%;
+    color: $thirdThemeColor;
+    font-family: $secondThemeFont;
+
+    &--title {
+        text-align: center;
+        margin-top: 55px;
+        font-weight: lighter;
+        font-size: 3rem;
+
+
+        + p {
+            color: lighten($mainThemeColor,22);
+            text-align: center;
+            transform: translate(-5%)
+        }
+    }
+
+    &--img {
+        height: 75px;
+        width: 78px;
+        margin-left: 120px;
+        margin-bottom: 60px;
+
+        &--separateur {
+            transform: translate(50%,-600%);
+        }
+    }
+
+    &__offTitle {
+
+        font-weight: 100;
+        font-size:1.8rem;
+    
+    + p {
+        font-family: Arial,sans-serif;
+        font-size:0.9rem;
+    }
+    }
+}
+
+.section3 {
+    background-color: $bgSection3;
+
+    &__ecran {
+        height: 465px;
+        width: 1250px;
+        background: $bgEcran no-repeat center;
+        background-size: cover;
+    }
+}
