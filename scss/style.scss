@@ -139,11 +139,12 @@ body {
 
 .section3 {
     background-color: $bgSection3;
-
+  
     &__ecran {
         height: 465px;
         width: 1250px;
         background: $bgEcran no-repeat center;
         background-size: cover;
+      
     }
 }
