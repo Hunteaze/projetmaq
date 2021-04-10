@@ -1,0 +1,31 @@
+@mixin portrait {
+    @each $key, $value in $listPortrait{
+      
+        &__portrait#{$key}{
+            background: #{$value} no-repeat center;
+            background-size: cover;
+            position: relative;
+            height: 220px;
+            &--image{
+                position: absolute;
+                right: 15px;
+                bottom:0px;
+            
+                &--rectangle{
+                    height: 42px;
+                    width: 42PX;
+                }
+                  &--twitter{
+                        height: 20px;
+                        width: 20pX;
+                        right: 25px;
+                        bottom:10px;
+                    }
+                }
+            }
+     
+    
+   
+        }
+    
+}
