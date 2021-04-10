@@ -1,7 +1,15 @@
 //bg images //
 $bgSection1: url("../assets/bgsection1.png");
+<<<<<<< Updated upstream
 $bgEcran: url("../assets/windo.svg");
 
+=======
+$bgEcran: url("../assets/Screen.png");
+$portrait1: url("../assets/team01.png");
+$portrait2: url("../assets/team02.png");
+$portrait3: url("../assets/team03.png");
+$portrait4: url("../assets/team04.png");
+>>>>>>> Stashed changes
 //bg colors//
 $bgHeader: #ebebeb;
 $bgHeaderIcons: #ffffff;
@@ -17,4 +25,15 @@ $offText: #d5d5d5;
 
 //font//
 $mainThemeFont: 'nexa_boldregular', sans-serif;
+<<<<<<< Updated upstream
 $secondThemeFont: 'open_sansregular',sans-serif;
+=======
+$secondThemeFont: 'open_sansregular',sans-serif;
+
+$listPortrait:(
+    1 : $portrait1 ,
+    2 : $portrait2,
+    3 : $portrait3,
+    4 : $portrait4
+);
+>>>>>>> Stashed changes

@@ -9941,7 +9941,10 @@ h3 {
   font-style: normal;
 }
 body {
+<<<<<<< Updated upstream
   height: 960px;
+=======
+>>>>>>> Stashed changes
   background-color: #ebebeb;
 }
 
@@ -10059,10 +10062,196 @@ body {
   background-color: #222222;
 }
 .section3__ecran {
+<<<<<<< Updated upstream
   height: 465px;
   width: 1250px;
   background: url("../assets/windo.svg") no-repeat center;
   background-size: cover;
+=======
+  background: url("../assets/Screen.png") no-repeat;
+  background-size: cover;
+  height: 465px;
+  width: 1250px;
+}
+
+.section4 {
+  padding-bottom: 40px;
+}
+.section4__title {
+  font-family: "nexa_boldregular", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #707070;
+  margin-top: 85px;
+}
+.section4__title + P {
+  text-align: center;
+  font-size: 0, 8rem;
+}
+.section4__teamCard {
+  background-color: #ebebeb;
+}
+.section4__portrait1 {
+  background: url("../assets/team01.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 220px;
+}
+.section4__portrait1--image {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.section4__portrait1--image--rectangle {
+  height: 42px;
+  width: 42PX;
+}
+.section4__portrait1--image--twitter {
+  height: 20px;
+  width: 20pX;
+  right: 25px;
+  bottom: 10px;
+}
+.section4__portrait2 {
+  background: url("../assets/team02.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 220px;
+}
+.section4__portrait2--image {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.section4__portrait2--image--rectangle {
+  height: 42px;
+  width: 42PX;
+}
+.section4__portrait2--image--twitter {
+  height: 20px;
+  width: 20pX;
+  right: 25px;
+  bottom: 10px;
+}
+.section4__portrait3 {
+  background: url("../assets/team03.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 220px;
+}
+.section4__portrait3--image {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.section4__portrait3--image--rectangle {
+  height: 42px;
+  width: 42PX;
+}
+.section4__portrait3--image--twitter {
+  height: 20px;
+  width: 20pX;
+  right: 25px;
+  bottom: 10px;
+}
+.section4__portrait4 {
+  background: url("../assets/team04.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 220px;
+}
+.section4__portrait4--image {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.section4__portrait4--image--rectangle {
+  height: 42px;
+  width: 42PX;
+}
+.section4__portrait4--image--twitter {
+  height: 20px;
+  width: 20pX;
+  right: 25px;
+  bottom: 10px;
+}
+.section4__card {
+  background-color: #ffffff;
+  padding: 60px;
+  margin-top: 40px;
+  position: relative;
+}
+.section4__card--angle {
+  position: absolute;
+  display: block;
+  top: -4px;
+  left: 0px;
+  height: 30px;
+  width: 30px;
+}
+.section4__card--title {
+  font-family: "nexa_boldregular", sans-serif;
+  text-align: center;
+}
+.section4__card--title--largeur {
+  font-family: "nexa_boldregular", sans-serif;
+  text-align: left;
+}
+.section4__card--text {
+  color: #701dbb;
+  font-family: "open_sansregular", sans-serif;
+  font-weight: 600;
+}
+.section4__card--offtext {
+  color: #707070;
+  font-family: "open_sansregular", sans-serif;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #373737;
+  color: #ffffff;
+  height: 560px;
+}
+.footer__enTete {
+  padding-top: 40px;
+  font-size: 0.8rem;
+}
+.footer--logo {
+  float: left;
+}
+.footer__title {
+  font-family: "open_sansregular", sans-serif;
+  color: #ffffff;
+  font-weight: 1000;
+  margin-bottom: 0px;
+}
+.footer__list {
+  margin: 10px 20px;
+}
+.footer__list img {
+  padding-left: 20px;
+}
+.footer__list:hover {
+  border-bottom: #701dbb solid 5px;
+}
+.footer--lien {
+  padding: 16px 30px;
+  list-style: none;
+  display: inline-flex;
+}
+.footer--lien li {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.footer--lien li img {
+  padding-right: 16px;
+}
+.footer--text {
+  font-size: 0, 5em;
+  font-weight: 100;
+  color: #d5d5d5;
+>>>>>>> Stashed changes
 }
 
 /*# sourceMappingURL=style.css.map */
