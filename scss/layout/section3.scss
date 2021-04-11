@@ -1,0 +1,14 @@
+
+.section3 {
+    background-color: $bgSection3;
+   
+  
+    &__ecran {
+        background: $bgEcran  no-repeat;
+        background-size: cover;
+      
+      
+        height: 465px;
+        width: 1250px;  
+    }
+}

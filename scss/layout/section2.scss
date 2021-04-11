@@ -1,0 +1,43 @@
+.section2 {
+    background-color: $bgSection2;
+    height: 868px;
+    width: 100%;
+    color: $thirdThemeColor;
+    font-family: $secondThemeFont;
+
+    &--title {
+        text-align: center;
+        margin-top: 55px;
+        font-weight: lighter;
+        font-size: 3rem;
+
+
+        + p {
+            color: lighten($mainThemeColor,22);
+            text-align: center;
+            transform: translate(-5%)
+        }
+    }
+
+    &--img {
+        height: 75px;
+        width: 78px;
+        margin-left: 120px;
+        margin-bottom: 60px;
+
+        &--separateur {
+            transform: translate(50%,-600%);
+        }
+    }
+
+    &__offTitle {
+
+        font-weight: 100;
+        font-size:1.8rem;
+    
+    + p {
+        font-family: Arial,sans-serif;
+        font-size:0.9rem;
+    }
+    }
+}

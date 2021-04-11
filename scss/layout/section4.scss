@@ -1,0 +1,77 @@
+
+
+.section4{
+    padding-bottom: 40px;
+     &__title{
+         font-family: $mainThemeFont;
+         font-weight: 100;
+         text-align: center;
+         color: $secondThemeColor;
+         margin-top: 85px;
+         + P{
+             text-align: center;
+             font-size: 0,8rem;
+         }
+     }
+ 
+     &__teamCard{
+         background-color: $bgHeader;
+     }
+ 
+    
+ 
+    
+         @include portrait;
+        
+         
+     
+ 
+ 
+ 
+ 
+     &__card{
+         background-color: $thirdThemeColor;
+         padding: 60px;        
+         margin-top: 40px;
+ 
+         
+         position: relative; 
+        
+             &--angle{
+                 position: absolute;
+                 top:-4px;;
+                 left: 0px;
+                 height: 30px;
+                 width: 30px;
+                 background-color: $mainThemeColor;
+                 border: none;
+                 text-decoration: none;
+                 color: $thirdThemeColor;
+             }
+             &--title{
+                 font-family: $mainThemeFont;
+                text-align: center;
+                &--largeur{
+                 font-family: $mainThemeFont;
+                
+                 text-align: left;
+                  }
+             }
+              
+             &--text{
+                     color: $mainThemeColor;
+                     font-family: $secondThemeFont;
+                     font-weight: 600;
+             }
+             &--offtext{
+                 color: $secondThemeColor;
+                 font-family: $secondThemeFont;
+ 
+             }
+             
+         
+       }
+      
+ 
+ }
+ 

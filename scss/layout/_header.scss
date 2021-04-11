@@ -1,0 +1,60 @@
+.header {
+    &__enTete {
+        padding-top: 40px;
+        font-size: 0.8rem;
+    }
+
+    color: $secondThemeColor;
+    font-family: $secondThemeFont;
+
+
+    &--logo {
+        float: left;
+    }
+
+    &__title {
+        font-family: $secondThemeFont;
+        color: $mainThemeColor;
+        font-weight: 1000;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-style: italic;
+    }
+
+    &--lien {
+        margin-top: 30px;
+        display: inline-block;
+        color: $offText;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: $secondThemeFont;
+        font-weight: 600;
+
+        &--icon {
+            margin-left: 15px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: $mainThemeColor;
+        }
+    }
+
+    &__research {
+        margin-top: 20px;
+        height: 45px;
+        width: 300px;
+        font-family: $mainThemeFont;
+        font-weight: 100;
+        color: $offText;
+
+        &--icon {
+            height: 35px;
+            transform: translate(-40px);
+        }
+    }
+   
+}

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 @charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -9931,23 +9929,11 @@ h3 {
   }
 }
 @font-face {
-  font-family: "open_sansregular";
-  src: url("OpenSans-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "nexa_boldregular";
   src: url("nexa_bold-webfont.woff2") format("woff2"), url("nexa_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-body {
-
->>>>>>> Stashed changes
-  background-color: #ebebeb;
-}
-
 .header {
   color: #707070;
   font-family: "open_sansregular", sans-serif;
@@ -9999,27 +9985,9 @@ body {
 }
 
 .section1 {
-  background: url("../assets/bgsection1.png") no-repeat center;
+  background: url("../assets/bgSection1.png") no-repeat center;
   background-size: cover;
   height: 530px;
-}
-
-.navitem {
-  padding-top: 25px;
-  align-items: center;
-  height: 112px;
-  width: 160px;
-  border-bottom: #701dbb 6px solid;
-  transform: scale(1);
-  transition: all 100ms ease-in-out;
-}
-.navitem--icon {
-  height: 30px;
-  width: 40px;
-}
-.navitem:hover {
-  transform: scale(1.1) translateY(-10%);
-  border-bottom: #701dbb 10px solid;
 }
 
 .section2 {
@@ -10177,11 +10145,14 @@ body {
 }
 .section4__card--angle {
   position: absolute;
-  display: block;
   top: -4px;
   left: 0px;
   height: 30px;
   width: 30px;
+  background-color: #701dbb;
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
 }
 .section4__card--title {
   font-family: "nexa_boldregular", sans-serif;
@@ -10247,5 +10218,26 @@ body {
   color: #d5d5d5;
 }
 
+.navitem {
+  padding-top: 25px;
+  align-items: center;
+  height: 112px;
+  width: 160px;
+  border-bottom: #701dbb 6px solid;
+  transform: scale(1);
+  transition: all 100ms ease-in-out;
+}
+.navitem--icon {
+  height: 30px;
+  width: 40px;
+}
+.navitem:hover {
+  transform: scale(1.1) translateY(-10%);
+  border-bottom: #701dbb 10px solid;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
 /*# sourceMappingURL=style.css.map */
->>>>>>> portable

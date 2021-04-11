@@ -1,0 +1,54 @@
+.footer{
+    padding : 20px;
+    background-color: $bgFooter;
+    color: $thirdThemeColor;
+    height: 560px;
+    &__enTete {
+        padding-top: 40px;
+        font-size: 0.8rem;
+    }
+
+
+    &--logo {
+        float: left;
+    }
+
+    &__title {
+        font-family: $secondThemeFont;
+        color: $thirdThemeColor;
+        font-weight: 1000;
+        margin-bottom: 0px;
+
+    }
+    &__list{
+        
+        margin: 10px 20px;
+        img{
+            padding-left: 20px;
+
+        }
+        &:hover{
+            border-bottom: $mainThemeColor solid 5px;
+        }
+        }
+        &--lien{
+            padding: 16px  30px;
+            list-style: none;
+            display: inline-flex;
+          li{
+              padding-right: 16px;
+              padding-left: 16px;
+              img{
+                padding-right: 16px;;
+              }
+          }
+            
+        }
+        &--text{
+            font-size: 0,5em;
+            font-weight: 100;
+            color: $offText;
+        }
+      
+
+}
