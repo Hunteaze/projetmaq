@@ -29,3 +29,10 @@
         }
     
 }
+
+@mixin mobile-only {
+    @media Screen and (max-width: map-get($map: $breakpoints, $key: mobile )){
+        display: none;
+    }
+    
+}

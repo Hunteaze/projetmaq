@@ -1,6 +1,6 @@
 .section2 {
     background-color: $bgSection2;
-    height: 868px;
+ 
     width: 100%;
     color: $thirdThemeColor;
     font-family: $secondThemeFont;
@@ -26,6 +26,7 @@
         margin-bottom: 60px;
 
         &--separateur {
+            @include mobile-only;
             transform: translate(50%,-600%);
         }
     }

@@ -9992,7 +9992,6 @@ h3 {
 
 .section2 {
   background-color: #2d2d2d;
-  height: 868px;
   width: 100%;
   color: #ffffff;
   font-family: "open_sansregular", sans-serif;
@@ -10017,6 +10016,11 @@ h3 {
 .section2--img--separateur {
   transform: translate(50%, -600%);
 }
+@media Screen and (max-width: 559px) {
+  .section2--img--separateur {
+    display: none;
+  }
+}
 .section2__offTitle {
   font-weight: 100;
   font-size: 1.8rem;
@@ -10028,6 +10032,11 @@ h3 {
 
 .section3 {
   background-color: #222222;
+}
+@media Screen and (max-width: 559px) {
+  .section3 {
+    display: none;
+  }
 }
 .section3__ecran {
   background: url("../assets/Screen.png") no-repeat;
